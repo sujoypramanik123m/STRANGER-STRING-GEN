@@ -27,7 +27,7 @@ app = Client(
 )
 
 if __name__ == "__main__":
-    print("𝚂𝚝𝚛𝚊𝚗𝚐𝚎𝚛 𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙶𝚎𝚗 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐...")
+    print("𝚃𝚘𝚙𝚙𝚎𝚛𝚜 𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚘𝚛 𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐...")
     try:
         app.start()
     except ApiIdInvalid:
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         raise
 
     uname = app.get_me().username
-    print(f"@{uname} NOW STRANGER SESSION GEN IS READY TO GEN SESSION")
+    print(f"@{uname} NOW TOPPERS SESSION GEN IS READY TO GENERATE SESSION")
     
     idle()
     
